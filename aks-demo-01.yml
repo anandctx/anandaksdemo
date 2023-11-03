@@ -10,9 +10,9 @@ pool:
   vmImage: ubuntu-latest
 
 stages:
-- stage: Build-Stage
+- stage: Build_Stage
   jobs:
-  - job: Build-Job
+  - job: Build_Job
     steps:
     - task: Docker@2
       inputs:
